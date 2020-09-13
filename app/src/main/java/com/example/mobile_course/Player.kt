@@ -1,6 +1,10 @@
 package com.example.mobile_course
 
-class Player(val name: String? = "Alesha") {
-    val isEmpty: Boolean?
-        get() = name.length == 0
+open class Player(open val name: String? = ""): PlayerInterface {
+    var hp: Int = 100
+    val isDead: Boolean?
+        get() = hp <= 100
+
+    override fun attack(enemy: Player) {
+    }
 }
