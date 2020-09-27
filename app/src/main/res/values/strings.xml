@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Mobile_course</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="hint_name">Введите фамилию и имя</string>
+    <string name="hint_password">Введите пароль</string>
+    <string name="hint_username">Введите логин</string>
+    <string name="registr">Регистрация</string>
+    <string name="edit">Редактировать</string>
+    <string name="online">online</string>
+    <string name="about">Расскажите о себе</string>
+    <string name="name">Данил Асулгараев</string>
+    <string name="story">История</string>
+    <string name="post">Запись</string>
+    <string name="photo">Фото</string>
+    <string name="clip">Клип</string>
+    <string name="photos">ФОТОГРАФИИ</string>
+    <string name="toReg">Зарегистрироваться</string>
 </resources>
