@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Mobile_course</string>
+    <string name="sendIntent">Отправить интент</string>
+    <string name="secondActivity">Второе активити</string>
+    <string name="firstActivity">Первое активити</string>
+    <string name="sendData">Отправить данные</string>
 </resources>
