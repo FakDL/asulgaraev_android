@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Mobile_course</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Home Fragment</string>
+    <string name="search_fragment">Search Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="settings_fragment">Settings Fragment</string>
+    <string name="info_fragment">Info Fragment</string>
 </resources>
