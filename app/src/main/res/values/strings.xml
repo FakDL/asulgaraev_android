@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Mobile_course</string>
+    <string name="menu_title_home">Главная</string>
+    <string name="menu_title_edit">Редактировать</string>
+    <string name="menu_title_list">Лента</string>
+    <string name="hint_title">Введите заголовок</string>
+    <string name="hint_desc">Введите описание</string>
+    <string name="hint_position">Введите позицию</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_ok">Oк</string>
+    <string name="text_create">Создать элемент</string>
 </resources>
