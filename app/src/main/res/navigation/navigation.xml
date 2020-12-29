@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/list_fragment">
+
+    <fragment
+        android:id="@+id/list_fragment"
+        android:name="com.example.mobile_course.todolist.ListFragment"
+        android:label="@string/list_fragment"
+        tools:layout="@layout/fragment_list">
+        <action
+            android:id="@+id/action_listFragment_to_createFragment"
+            app:destination="@id/create_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/create_fragment"
+        android:name="com.example.mobile_course.create.CreateFragment"
+        android:label="@string/create_fragment"
+        tools:layout="@layout/fragment_create">
+        <argument
+            android:name="goalKey"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_createFragment_to_listFragment"
+            app:destination="@id/list_fragment"
+            app:launchSingleTop="false"
+            app:popUpTo="@+id/list_fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>
